@@ -1,0 +1,87 @@
+﻿body {
+	font-family: "Droid Sans";
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a:visited {
+	color: #0000FF;
+}
+
+a.character {
+	text-decoration: none;
+}
+
+p.chinese {
+    font-family: "SimSun", "FangSong";
+    font-size: 21px;
+}
+p.japanese, p.japanese_kanji {
+    font-family: "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro";
+    font-size: 17px;
+}
+
+.chart_div {
+	text-align: center;
+}
+
+/*FOR CHARACTER DISPLAY TABLE*/
+#character_display {
+    font-family: "Droid Sans", "Lucida Grande", "Ms Mincho", Sans-Serif;
+    font-size: 14px;
+    margin: auto;
+    width: 80%;
+    text-align: left;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-left: auto;
+    margin-top: 25px;
+}
+#character_display tr:nth-child(2n+1), #curve tr {
+    background: #e8edff;
+}
+#character_display th, #curve th {
+    font-size: 16px;
+    font-weight: normal;
+    padding: 12px 15px;
+    color: #039;
+    background: #d0dafd;
+}
+#character_display td, #curve td {
+    padding: 1px 15px;
+    color: #202060;
+    border-top: 1px solid #e8edff;
+}
+#character_display td.first {
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+}
+#character_display tr:nth-child(2n+1) td.first  {
+    padding: 1px 15px;
+    background: #d0dafd;
+}
+#character_display tr:nth-child(2n+0) td.first  {
+    padding: 1px 15px;
+    background: #e8effe;
+}
+#character_display tr:hover td, #curve tr:hover td {
+    color: #339 !important;
+    background: #fffae8 !important;
+}
+
+
+/*FOR CURVE TABLE*/
+#curve {
+	width: 60%;
+	margin-top: 25px;
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: right;
+}
+#curve th {
+	text-align: center;
+}
+#curve td {
+	padding-right: 15px;
+}
